@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Inter&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Inter:wght@900&family=Roboto&display=swap')
+
+    *   {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+body {
+    background-color: rgb(197, 122, 187);
+    font-family: 'Inter', sans-serif;
+}
+
+p {
+    font-family: 'Roboto';
+    font-weight: 800;
+    font-size: large;
+    text-align: center
+    
+}
+
+.main {
+    background-image: url(./images/limpo.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.person-container {
+    color: rgb(0, 0, 0);
+}
+
+.person-container__img {
+    width: 200px;
+    border-radius: 50%;
+    border: 8px solid rgb(190, 93, 177);
+    margin-bottom: 200px;
+    
+    
+}
+
+
+
+.person-container__name {
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-top: auto;
+
+}
+
+.person-container__subtitle {
+    font-size: 30px;
+    margin-bottom: 50px;   
+}
+
+.info-container {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.info-box {
+    width: 470px;
+    height: 180px;
+    background-color: rgb(223, 121, 209);
+    padding: 20px;
+    border-radius: 50px;
+    font-family: 'Inter', sans-serif;
+    
+    
+}
+
+.info-box__title {
+    font-size: 25px;
+    margin-bottom: 25px;
+    font-weight:bold
+    
+}
+
+.contact-container {
+    display: flex;
+    gap: 24px;
+    justify-content:center;
+    
+    
+}
+
+.contact-container__link {
+    background-color: rgb(233, 103, 205);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-container__icon {
+    width: 50px;
+    height: 50px;
+    
+    
+}
+
